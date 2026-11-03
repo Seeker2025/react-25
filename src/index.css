@@ -1,4 +1,8 @@
-@import-normalize; /* bring in normalize.css styles */
+/* Global styles */
+
+* {
+  box-sizing: border-box;
+}
 
 body {
   padding: 12px 25px;
@@ -16,11 +20,13 @@ code {
     monospace;
 }
 
-h2{
+h2 {
   margin: 0;
   padding: 0;
 }
 
-ul, ol, li{
+ul,
+ol,
+li {
   list-style-type: none;
 }
