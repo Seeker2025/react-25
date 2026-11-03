@@ -1,1 +1,0 @@
-export { Modalka04 } from './Modalka04';
