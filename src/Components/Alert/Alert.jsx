@@ -1,5 +1,6 @@
-import React, { useContext } from 'react';
-import { Context } from '../../App';
+import { useContext } from 'react';
+// import { Context    } from '../../App';
+import { Context } from '../Context/Context';
 
 export const Alert = () => {
     const context = useContext(Context)
