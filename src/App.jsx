@@ -21,7 +21,7 @@ function App() {
     <p>This's Vine</p>
     <Test/>
     <Alert/>
-    <Main setToggleAlert = {() => setToggleAlert((prev)=>!prev)}/>
+    <Main/>
     </Context.Provider>
   )
 }
