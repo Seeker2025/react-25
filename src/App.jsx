@@ -14,11 +14,13 @@ function App() {
   const [toggleAlert, setToggleAlert] = useState(false);
 
   return (
-    <Context.Provider value = {{toggleValue: toggleAlert, togle: setToggleAlert}}>
-      <p>This's Vine</p>
-      <Test/>
-      <Alert/>
-      <Main setToggleAlert = {() => setToggleAlert((prev)=>!prev)}/>
+    <Context.Provider 
+    value = {{toggleValue: toggleAlert, toggle: setToggleAlert}}
+    >
+    <p>This's Vine</p>
+    <Test/>
+    <Alert/>
+    <Main setToggleAlert = {() => setToggleAlert((prev)=>!prev)}/>
     </Context.Provider>
   )
 }
