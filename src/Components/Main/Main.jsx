@@ -7,10 +7,9 @@ export const Main = () => {
     return (
         <div>
             <h1>Hello Context</h1>
-            <button onClick={ () => context.togle(prev => !prev) }>
+            <button onClick={ () => context.toggle(prev => !prev) }>
                 One Alert
             </button>
         </div>
-    )
-
+        )
 }
